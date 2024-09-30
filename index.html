@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="banner" id="home">
+
+        <!-- header area -->
+
+        <header class="header">
+            <div class="logo">
+                <p class="logo-text">GSK</p>
+                <P class="logo-text">TRAVELS</P>
+            </div>
+
+            <nav class="navigation">
+                <ul class="navlinks">
+                    <li><a href="#home" class="navlink">Home</a></li>
+                    <li><a href="#rooms" class="navlink">Rooms</a></li>
+                    <!-- <li><a href="'#" class="navlink">premium</a></li> -->
+                    <li><a href="'#food" class="navlink">Food</a></li>
+                    <li><a href='#gallery' class="navlink"> Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- call to action text -->
+
+        <div class="banner-details">
+            <div class="badge">
+                Make you Journey more Intersting with us.
+            </div>
+            <h1 class="banner-heading" data-aos="fade-up">
+                Explore the Beauty of the India
+            </h1>
+            <button class="btn">Explore more</button>
+        </div>
+        <!-- booking section -->
+
+        <div class="booking">
+            <div class="inp">
+                <label for="checkin"> Check in Date</label>
+                <input id="checkin" type="date">
+            </div>
+            <div class="inp">
+                <label for="checkout"> Check out Date</label>
+                <input id="checkout" type="date">
+            </div>
+            <div class="inp">
+                <label for="adult">No Of Adult</label>
+                <input id="adult" type="number" value="00" min="0">
+            </div>
+            <div class="inp">
+                <label for="child">No Of Adult</label>
+                <input id="child" type="number" value="00" min="0">
+            </div>
+            <button class="btn book-btn">
+                BOOK NOW
+            </button>
+        </div>
+    </section>
+    <!-- about us section -->
+    <section class="about">
+        <i class="fa-solid fa-globe icon"></i>
+        <p>
+            <span class="fiest-word">Welcome</span> to GSK Travel, your premier travel partner in India. With branches
+            in Visakhapatnam, Bengaluru, and Chennai, we specialize in offering unforgettable experiences tailored to
+            every traveler. Our commitment to quality ensures luxurious accommodations with premium room facilities,
+            ensuring your comfort wherever you go. Discover India’s diverse landscapes and rich culture with our expert
+            guidance. Join us on a journey of a lifetime!
+        </p>
+    </section>
+
+    <!-- rooms sections -->
+    <section class="rooms" id="rooms">
+        <h1 class="section-title"> Best Hotels in India for You</h1>
+        <p>But These hotels are in the differnt location</p>
+        <div class="rooms-area">
+            <div class="room" data-aos="fade-up">
+                <div class="room-img">
+                    <img src="https://www.novotel-visakhapatnam.com/wp-content/uploads/sites/24/2022/10/slideshow-home-1.jpg"
+                        alt="" class="room-image">
+                </div>
+                <div class="room-details">
+                    <h4>Novotel </h4>
+                    <h6>₹8,500-₹18,000 / Night</h6>
+                    <p style="font-size: 10px;">Dr NTR Beach Rd, Krishna Nagar, Maharani Peta, Visakhapatnam, Andhra
+                        Pradesh 530002•089128 22222 </p>
+                    <button class="btn book-btn"
+                        onclick="window.open('https://www.novotel-visakhapatnam.com/','_blank')">
+                        know more
+                    </button>
+                </div>
+
+            </div>
+            <div class="room" data-aos="fade-up">
+                <div class="room-img">
+                    <img src="https://www.momondo.in/rimg/himg/6e/5a/9f/expedia_group-103449-09ae8fe1-719808.jpg?width=968&height=607&crop=true"
+                        alt="" class="room-image">
+                </div>
+                <div class="room-details">
+                    <h4>Dolphin Hotel </h4>
+                    <h6>₹4,000-₹10,000 / Night</h6>
+                    <p style="font-size: 10px;">75 Feet Road, Dolphin Hotel Jct, Daba Gardens, Visakhapatnam, Andhra
+                        Pradesh 530020•093476 93130 </p>
+                    <button class="btn book-btn" onclick="window.open('https://www.dolphinhotelsvizag.com/','_blank')">
+                        know more
+                    </button>
+                </div>
+
+            </div>
+            <div class="room" data-aos="fade-up">
+                <div class="room-img">
+                    <img src="https://www.ahstatic.com/photos/6714_ho_00_p_2048x1536.jpg" alt="" class="room-image">
+                </div>
+                <div class="room-details">
+                    <h4>Novotel Chennai OMR</h4>
+                    <h6>₹8,000-₹15,000 / Night</h6>
+                    <p style="font-size: 10px;">IT Expressway, opp. Elcot Sez, Sholinganallur, Chennai, Tamil Nadu
+                        600119 phone number 04466444777 </p>
+                    <button class="btn book-btn"
+                        onclick="window.open('https://all.accor.com/ssr/app/accor/rates/6714/index.en.shtml?dateIn=2024-10-04&nights=2&compositions=2&stayplus=false&snu=false&accessibleRooms=false&hideWDR=true&productCode=null&hideHotelDetails=true&gclid=Cj0KCQjwr9m3BhDHARIsANut04bcR6zjFyu8YcIJIo8zHVfJvfm-gfLFU24yu1dV_CU0gRwqCTuWpl4aAqreEALw_wcB&utm_campaign=6714-IN-cpc-desktop-default-0--mapresults-20453789504-0-0-1&utm_medium=partenariats&hmGUID=653fbfa4-4286-4b28-929a-bafa14b5e122&utm_source=Google%20Hotel%20Ads','_blank')">
+                        know more
+                    </button>
+                </div>
+
+            </div>
+            <div class="room" data-aos="fade-up">
+                <div class="room-img">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/ac/df/32/the-leela-palace-chennai.jpg?w=700&h=-1&s=1"
+                        alt="" class="room-image">
+                </div>
+                <div class="room-details">
+                    <h4>The Leela Palace Chennai
+                    </h4>
+                    <h6>₹15,000-₹22,000 / Night</h6>
+                    <p style="font-size: 10px;">Adyar Sea Face, Leela Palace Rd, MRC Nagar, Raja Annamalai Puram,
+                        Chennai, Tamil Nadu 600028 </p>
+                    <button class="btn book-btn" onclick="window.open('https://www.theleela.com/','_blank')">
+                        know more
+                    </button>
+                </div>
+
+            </div>
+            <div class="room" data-aos="fade-up">
+                <div class="room-img">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/249794716.jpg?k=c587291998375d8acfca69e0deb9ec305ace66c48d58d650f21749bf0a4dd2f0&o=&hp=1"
+                        alt="" class="room-image">
+                </div>
+                <div class="room-details">
+                    <h4>Vivanta Bengaluru Residency
+                    </h4>
+                    <h6>₹18,000-₹50,000 / Night</h6>
+                    <p style="font-size: 10px;">66, Residency Rd, Srinivas Nagar, Shanthala Nagar, Ashok Nagar,
+                        Bengaluru, Karnataka 560025</p>
+                    <button class="btn book-btn"
+                        onclick="window.open('https://www.vivantahotels.com/en-in/vivanta-bengaluru-residency-road/','_blank')">
+                        know more
+                    </button>
+                </div>
+
+            </div>
+            <div class="room" data-aos="fade-up">
+                <div class="room-img">
+                    <img src="https://cdn.sanity.io/images/ocl5w36p/production/ee6911290d651bd5c40122a39f1ef90d4ca7953a-7304x3487.jpg?w=1280&auto=format&dpr=2"
+                        alt="" class="room-image">
+                </div>
+                <div class="room-details">
+                    <h4>Taj Bangalore
+                    </h4>
+                    <h6>₹18,000-₹50,000 / Night</h6>
+                    <p style="font-size: 10px;">opposite Kempegowda International Airport, Devanahalli,
+                        Gangamuthanahalli, Karnataka 560300•080660 03300 </p>
+                    <button class="btn book-btn"
+                        onclick="window.open('https://www.tajhotels.com/en-in/hotels/taj-bangalore','_blank')">
+                        know more
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="subscribe">
+
+        <div class="sub-text" data-aos="fade-right">
+            <div class="logo2">
+                <p class="logo-text">GSK</p>
+                <P class="logo-text">TRAVELS</P>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nihil beatae obcaecati sit ab corporis
+                non, quo totam quibusdam odit pariatur iure incidunt eum quas magnam. Blanditiis molestias consequatur
+                alias?
+            </p>
+        </div>
+        <div class="sub-area" data-aos="fade-left">
+            <h2>Subscribe to NewsLetter</h2>
+            <div class="subform">
+                <input type="text" class="sub-inp" placeholder="Enter Email">
+                <button class="btn sub-btn">subscribe</button>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER FOR FOOD -->
+
+    <section class="food" id="food">
+        <div class="food-details" data-aos="fade-up">
+            <h1 class="section-header">
+                Best Foods from all over the India
+            </h1>
+            <p>Click the Below button, It will Redirect to our food patner swiggy you can order your faviorate food  based on your locaton.
+            </p>
+            <button class="btn btn3" onclick="window.open('https://www.swiggy.com/','_blank')">
+                Explore more
+            </button>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        
+        <div class="img-div">
+            <div class="img-text">Taj mahal</div>
+            <img src="https://external-preview.redd.it/kEvG8NvQDhaXFchveIorWaNaWGJuxNLF7ZxijF3LxVk.jpg?width=1080&crop=smart&auto=webp&s=82d0f8d2c9ae8b0376f9a5492dc3494a0d825740"
+                class="gal-img" >
+        </div>
+        <div class="img-div">
+            <div class="img-text">Charminnar</div>
+            <img src="https://media1.thrillophilia.com/filestore/ckr8g2uz216nolkns4qd9yecdym0_0bb5438e6acd6cfe46095d36d96ca99e.jpg"
+                class="gal-img" data-aos="zoom-in">
+        </div>
+        <div class="img-div">
+            <div class="img-text">Red Fort</div>
+            <img src="https://images.unsplash.com/photo-1705861144413-f02e38354648?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="gal-img" data-aos="zoom-in">
+        </div>
+        <div class="img-div">
+            <div class="img-text">
+                Konark Temple
+            </div>
+            <img src="https://images.unsplash.com/photo-1725046908999-195118679132?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="gal-img" data-aos="zoom-in">
+        </div>
+        <div class="img-div">
+            <div class="img-text">
+                Ooty
+            </div>
+            <img src="https://www.trawell.in/blog/wp-content/uploads/2024/03/ooty-main-730x410.jpg" class="gal-img"
+                data-aos="zoom-in">
+        </div>
+        <div class="img-div">
+            <div class="img-text">
+                Ayodhya ram mandir
+            </div>
+            <img src="https://m.economictimes.com/thumb/msid-107080978,width-1600,height-900,resizemode-4,imgsize-113966/ayodhya-ram-mandir.jpg"
+                class="gal-img" data-aos="zoom-in">
+        </div>
+    </section>
+    <section class="copyright">
+        <p>©Copyright@2024 -SaiKiranGanta</p>
+    </section>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
