@@ -148,6 +148,7 @@
     justify-content: space-evenly;
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
+    border-radius:20px;
 }
 .inp{
     width:20%;
