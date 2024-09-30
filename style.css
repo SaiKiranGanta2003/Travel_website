@@ -13,7 +13,9 @@
 }
 
 /* banner css */
-
+body{
+    width:100%;
+}
 .banner{
     width: 100%;
     height: 90vh;
@@ -459,12 +461,12 @@ input{
     }
     .food{
         justify-content: center;
-        padding-left: 10%;
+        padding-left: 100px;
         background-position: right top;
 
     }
 .food-details{
-    padding: 0px;
+    padding:0px;
     width: 100%;
 }
 
